@@ -26,12 +26,15 @@ def user():
     and will give the user the chance to get another card or
     stay with what they have.
     """
+    
+    user_total = [user_result_one] + [user_result_two]
     intro = input("Hit or Stick:\n")
     if intro.endswith('Hit'):
         print(randomised)
         print("Opponents Turn...\n")
     if intro.endswith("Stick"):
-        print("Opponents Turn...\n")#
+        print("Opponents Turn...\n")
+
 
 def opponent():
     print("Opponents Turn...\n")
