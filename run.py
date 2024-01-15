@@ -20,10 +20,7 @@ jack = 10
 
 def user_turn():
     randomised = random.choice(cards)
-    user_result_one = print(randomised)
-    randomised_two = random.choice(cards)
-    user_result_two = random.choice(cards)
-    user_result_two = print(randomised_two)
+    print(randomised)
 
 def user():
     """
