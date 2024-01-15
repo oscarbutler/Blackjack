@@ -76,7 +76,7 @@ def value(card):
     randomised_two = random.choice(cards)
     print(randomised_two)
 
-def main():
+def game_summarising():
     """
     Adds all the functions that will be displayed into one function
     """
@@ -94,7 +94,7 @@ answer = int(input("Enter your option: "))
 while answer != 0:
     if answer == 1:
         print("Option 1 has been chosen.")
-        main()
+        game_summarising()
     elif answer == 2:
         print(f"""Option 2 has been chosen.\n
               Welcome to a game of 21, you will
