@@ -87,6 +87,8 @@ def game_summarising():
     Adds all the functions that will be displayed into one function
     """
     user_score, opponent_score = main_game_logic()
+    print(f"User's Total Score: {user_score}")
+    print(f"Opponent's Total Score: {opponent_score}")
 
 def print_menu():
     print("""[1] Play The Game!
