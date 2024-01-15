@@ -9,6 +9,11 @@ cards = ['2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'
     '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack',
     '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack']
 
+ace = 1 or 10
+king = 10
+queen = 10
+jack = 10
+
 randomised = random.choice(cards)
 
 def user():
