@@ -7,6 +7,8 @@ cards = ['1', '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'quee
     '1', '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack',
     '1', '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack']
 
+randomised = random.choice(cards)
+
 def user():
     """
     This will give the user and the opponent their first card
