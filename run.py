@@ -4,10 +4,14 @@ print("Welcome to a game of 21, you will have to get the closest to 21 as possib
 print("Your opponent is also trying to get as close to 21 but if they reach 17 or higher they can not get another card.\n")
 
 
-cards = ['2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack',
-    '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack', 
-    '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack',
-    '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack']
+cards = ['2', '3', '4', '5', '6', '7', '8', '9',
+         '10', 'ace', 'king', 'queen', 'jack',
+         '2', '3', '4', '5', '6', '7', '8', '9',
+         '10', 'ace', 'king', 'queen', 'jack',
+         '2', '3', '4', '5', '6', '7', '8', '9',
+         '10', 'ace', 'king', 'queen', 'jack',
+         '2', '3', '4', '5', '6', '7', '8', '9',
+         '10', 'ace', 'king', 'queen', 'jack']
 
 ace = 1 or 10
 king = 10
