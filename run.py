@@ -84,3 +84,4 @@ while answer != 0:
 
     menu()
     print()
+    answer = int(input("Enter your option: "))
