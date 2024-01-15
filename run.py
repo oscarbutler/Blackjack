@@ -37,8 +37,8 @@ def user():
         randomised_two = random.choice(cards)
         print(randomised_two)
         opponent_score = randomised_two
-        if opponent_score > 21:
-            print("You have won. Well done!")
+        #if opponent_score > 21:
+         #   print("You have won. Well done!")
 
     
         if intro.lower().strip().endswith('Hit'):
@@ -54,9 +54,6 @@ def user():
                 print("You've lost, better luck next time!")
                 return
         
-        if intro.endswith('Hit'):
-            print(user_result_two)
-
         else:
             print("Invalid input. Please enter 'Hit' or 'Stick'.")
 
