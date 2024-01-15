@@ -31,6 +31,6 @@ def user():
     if intro.endswith("Stick"):
         print("Opponents Turn...\n")#
 
-    def opponent():
-        print("Opponents Turn...\n")
-        print(randomised_two)
+def opponent():
+    print("Opponents Turn...\n")
+    print(randomised_two)
