@@ -74,3 +74,8 @@ while answer != 0:
         print("Option 1 has been chosen.")
         main()
     elif answer == 2:
+        print(f"""Option 2 has been chosen.\n
+              Welcome to a game of 21, you will
+              have to get the closest to 21 as possible\n
+              Your opponent is also trying to get as close to 21 but if
+              they reach 17 or higher they can not get another card.\n""")
