@@ -63,7 +63,8 @@ def main_game_logic():
         
         else:
             print("Invalid input. Please enter 'Hit' or 'Stick'.")
-    return user_total
+
+    return user_total, opponent_total_score
 
 def value(card):
     if card.isdigit():
