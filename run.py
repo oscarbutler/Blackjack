@@ -41,8 +41,8 @@ def main_game_logic():
         opponent_score = randomised_two
         opponent_total_score += value(opponent_score)
         print(f"Opponents total score is: {opponent_total_score}")
-        #if opponent_score > 21:
-         #   print("You have won. Well done!")
+        if opponent_score > 21:
+           print("You have won. Well done!")
 
     
         if intro.lower().strip().endswith('hit'):
