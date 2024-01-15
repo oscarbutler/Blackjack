@@ -49,6 +49,7 @@ def user():
                 return user_total
         
         elif intro.lower().strip().endswith("Stick"):
+            randomised_two = random.choice(cards)
             #print("Opponents Turn...\n")
             #if user_total > 21:
             #   print("You've lost, better luck next time!")
