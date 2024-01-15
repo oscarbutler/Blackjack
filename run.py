@@ -32,6 +32,11 @@ def user():
 
     while True:
         intro = input("Hit or Stick:\n")
+
+        print("Opponents Turn...\n")
+        randomised_two = random.choice(cards)
+        print(randomised_two)
+        
     
         if intro.lower().strip().endswith('Hit'):
             user_result_two = user_turn()
