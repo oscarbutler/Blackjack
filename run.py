@@ -16,6 +16,7 @@ jack = 10
 
 randomised = random.choice(cards)
 user_result_one = print(randomised)
+randomised_two = random.choice(cards)
 
 def user():
     """
