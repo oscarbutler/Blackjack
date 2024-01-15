@@ -34,7 +34,7 @@ def user():
         print("Opponents Turn...\n")
     if intro.endswith("Stick"):
         print("Opponents Turn...\n")
-
+        if user_total > 21:
 
 def opponent():
     print("Opponents Turn...\n")
