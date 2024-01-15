@@ -43,7 +43,7 @@ def main_game_logic():
         print(f"Opponents total score is: {opponent_total_score}")
         if opponent_score > 21:
            print("You have won. Well done!")
-
+           return user_total, opponent_total_score
     
         if intro.lower().strip().endswith('hit'):
             user_result_two = user_turn()
