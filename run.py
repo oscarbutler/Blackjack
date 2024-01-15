@@ -29,7 +29,7 @@ def user():
     
     user_total = [user_result_one] + [user_result_two]
     intro = input("Hit or Stick:\n")
-    if intro.endswith('Hit'):
+    if intro.lower().strip().endswith('Hit'):
         print(randomised)
         print("Opponents Turn...\n")
     if intro.endswith("Stick"):
