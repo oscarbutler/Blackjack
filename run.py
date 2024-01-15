@@ -85,9 +85,9 @@ def main():
 
 def menu():
     print("""[1] Play The Game!
-             [2] How to Play
-             [3] Credits"
-             [0] Exit the programn.""")
+[2] How to Play
+[3] Credits"
+[0] Exit the programn.""")
 
 menu()
 answer = int(input("Enter your option: "))
