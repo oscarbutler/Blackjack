@@ -15,6 +15,7 @@ queen = 10
 jack = 10
 
 randomised = random.choice(cards)
+user_result_one = print(randomised)
 
 def user():
     """
