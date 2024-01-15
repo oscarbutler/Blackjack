@@ -77,3 +77,5 @@ while answer != 0:
               Your opponent is also trying to get as close to 21 but if
               they reach 17 or higher they can not get another card.\n""")
     elif answer == 3:
+        print("Option 3 has been chosen.\n")
+        print("https://github.com/oscarbutler")
