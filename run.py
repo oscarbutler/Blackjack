@@ -76,3 +76,4 @@ while answer != 0:
               have to get the closest to 21 as possible\n
               Your opponent is also trying to get as close to 21 but if
               they reach 17 or higher they can not get another card.\n""")
+    elif answer == 3:
