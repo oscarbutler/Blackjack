@@ -47,6 +47,8 @@ def value(card):
         return int(card)
     elif card.lower() == 'ace':
         return ace
+    else:
+        return 10
 
 def opponent():
     """
