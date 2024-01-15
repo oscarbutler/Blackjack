@@ -60,4 +60,5 @@ def main():
     opponent_score = opponent()
     user_score = user()
 
-    def menu():
+def menu():
+    print("[1] Play The Game!")        
