@@ -30,7 +30,7 @@ def user():
     stay with what they have.
     """
     user_result_one = user_turn()
-    user_total = [user_result_one] + [user_result_two]
+    user_total = [user_result_one]
     intro = input("Hit or Stick:\n")
     if intro.lower().strip().endswith('Hit'):
         print(randomised)
