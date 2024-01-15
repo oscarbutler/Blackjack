@@ -82,13 +82,13 @@ def main():
     """
     user_score = main_game_logic()
 
-def menu():
+def print_menu():
     print("""[1] Play The Game!
 [2] How to Play
 [3] Credits"
 [0] Exit the programn.""")
 
-menu()
+print_menu()
 answer = int(input("Enter your option: "))
 
 while answer != 0:
@@ -107,6 +107,6 @@ while answer != 0:
     else:
         print("Invalid Option.")
 
-    menu()
+    print_menu()
     print()
     answer = int(input("Enter your option: "))
