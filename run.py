@@ -68,3 +68,5 @@ def menu():
 
 menu()
 answer = int(input("Enter your option: "))
+
+while answer != 0:
