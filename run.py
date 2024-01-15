@@ -86,7 +86,7 @@ def game_summarising():
     """
     Adds all the functions that will be displayed into one function
     """
-    user_score = main_game_logic()
+    user_score, opponent_score = main_game_logic()
 
 def print_menu():
     print("""[1] Play The Game!
