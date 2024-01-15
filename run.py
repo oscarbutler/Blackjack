@@ -32,7 +32,7 @@ def user():
     if intro.lower().strip().endswith('Hit'):
         print(randomised)
         print("Opponents Turn...\n")
-    if intro.endswith("Stick"):
+    if intro.lower().strip().endswith("Stick"):
         print("Opponents Turn...\n")
         if user_total > 21:
             print("You've lost, better luck next time!")
