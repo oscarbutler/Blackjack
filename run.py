@@ -50,3 +50,5 @@ def opponent():
     print(randomised_two)
 
 def main():
+    opponent_score = opponent()
+    user_score = user()
