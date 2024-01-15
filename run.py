@@ -68,7 +68,7 @@ def value(card):
     else:
         return 10
 
-def opponent():
+#def opponent():
     """
     The score for the opponent which will be automised.
     """
