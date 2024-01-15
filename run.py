@@ -37,6 +37,9 @@ def user():
         randomised_two = random.choice(cards)
         print(randomised_two)
         opponent_score = randomised_two
+        if opponent_score > 21:
+            print("You have won. Well done!")
+
     
         if intro.lower().strip().endswith('Hit'):
             user_result_two = user_turn()
