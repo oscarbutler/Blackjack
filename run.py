@@ -41,6 +41,7 @@ def user():
         print(user_result_two)
     else:
         print("Invalid input. Please enter 'Hit' or 'Stick'.")
+        user()
 
 def opponent():
     """
