@@ -20,7 +20,7 @@ def user_turn():
     randomised = random.choice(cards)
     print(randomised)
 
-def user():
+def main_game_logic():
     """
     This will give the user and the opponent their first card
     and will give the user the chance to get another card or
