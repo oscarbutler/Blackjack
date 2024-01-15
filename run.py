@@ -18,7 +18,7 @@ jack = 10
 def user_turn():
     print("Your Turn:")
     randomised_card = random.choice(cards)
-    print(randomised_card)
+    print("randomised_card for a user: ", randomised_card)
     return randomised_card
 
 def main_game_logic():
