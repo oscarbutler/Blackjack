@@ -43,6 +43,9 @@ def user():
         print("Invalid input. Please enter 'Hit' or 'Stick'.")
 
 def opponent():
+    """
+    The score for the opponent which will be automised.
+    """
     print("Opponents Turn...\n")
     print(randomised_two)
 
