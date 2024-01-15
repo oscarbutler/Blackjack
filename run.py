@@ -29,18 +29,21 @@ def user():
     user_result_one = user_turn()
     user_total = [user_result_one]
     intro = input("Hit or Stick:\n")
+    
     if intro.lower().strip().endswith('Hit'):
         user_result_two = user_turn()
+    
     if intro.lower().strip().endswith("Stick"):
         print("Opponents Turn...\n")
         if user_total > 21:
             print("You've lost, better luck next time!")
             return
+    
     if intro.endswith('Hit'):
         print(user_result_two)
+
     else:
         print("Invalid input. Please enter 'Hit' or 'Stick'.")
-        user()
 
 def value(card):
     if card.isdigit():
