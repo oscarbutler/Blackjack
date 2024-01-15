@@ -42,14 +42,14 @@ def main_game_logic():
          #   print("You have won. Well done!")
 
     
-        if intro.lower().strip().endswith('Hit'):
+        if intro.lower().strip().endswith('hit'):
             user_result_two = user_turn()
             user_total += value(user_result_two)
             if user_total > 21:
                 print("You've lost, better luck next time!")
                 return user_total
         
-        elif intro.lower().strip().endswith("Stick"):
+        elif intro.lower().strip().endswith("stick"):
             randomised_two = random.choice(cards)
             #print("Opponents Turn...\n")
             #if user_total > 21:
@@ -58,7 +58,7 @@ def main_game_logic():
         
         else:
             print("Invalid input. Please enter 'Hit' or 'Stick'.")
-            
+    return user_total
 
 def value(card):
     if card.isdigit():
