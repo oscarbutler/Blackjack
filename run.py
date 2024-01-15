@@ -37,7 +37,8 @@ def user():
         if user_total > 21:
             print("You've lost, better luck next time!")
             return
-
+    if intro.endswith('Hit'):
+        print(user_result_two)
 
 def opponent():
     print("Opponents Turn...\n")
