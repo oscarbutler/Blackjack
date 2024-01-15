@@ -45,6 +45,8 @@ def user():
 def value(card):
     if card.isdigit():
         return int(card)
+    elif card.lower() == 'ace':
+        return ace
 
 def opponent():
     """
