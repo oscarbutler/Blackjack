@@ -20,3 +20,4 @@ def user():
         print(randomised)
         print("Opponents Turn...\n")
     if intro.endswith("Stick"):
+        print("Opponents Turn...\n")
