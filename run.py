@@ -58,10 +58,10 @@ def main():
     user_score = user()
 
 def menu():
-    print("[1] Play The Game!")
-    print("[2] How to Play")
-    print("[3] Credits")
-    print("[0] Exit the programn.")
+    print("""[1] Play The Game!
+    [2] How to Play
+    [3] Credits"
+    [0] Exit the programn.""")
 
 menu()
 answer = int(input("Enter your option: "))
