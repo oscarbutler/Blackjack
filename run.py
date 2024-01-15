@@ -80,7 +80,6 @@ def main():
     """
     Adds all the functions that will be displayed into one function
     """
-    opponent_score = opponent()
     user_score = main_game_logic()
 
 def menu():
