@@ -19,6 +19,7 @@ def user_turn():
     print("Your Turn:")
     randomised = random.choice(cards)
     print(randomised)
+    return randomised
 
 def main_game_logic():
     """
@@ -57,6 +58,7 @@ def main_game_logic():
         
         else:
             print("Invalid input. Please enter 'Hit' or 'Stick'.")
+            
 
 def value(card):
     if card.isdigit():
