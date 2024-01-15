@@ -1,5 +1,7 @@
 import random
 
+print("Welcome to a game of 21, you will have to get the closest to 21 as possible\n")
+
 cards = ['1', '2', '3','4' ,'5' ,'6' ,'7' ,'8' ,'9' ,'10' , 'ace', 'king', 'queen' ,'jack',]
 
 def user():
