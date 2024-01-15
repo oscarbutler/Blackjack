@@ -81,3 +81,6 @@ while answer != 0:
               https://github.com/oscarbutler""")
     else:
         print("Invalid Option.")
+
+    menu()
+    print()
