@@ -48,11 +48,11 @@ def user():
                 print("You've lost, better luck next time!")
                 return user_total
         
-        if intro.lower().strip().endswith("Stick"):
-            print("Opponents Turn...\n")
-            if user_total > 21:
-                print("You've lost, better luck next time!")
-                return
+        elif intro.lower().strip().endswith("Stick"):
+            #print("Opponents Turn...\n")
+            #if user_total > 21:
+            #   print("You've lost, better luck next time!")
+            #  return
         
         else:
             print("Invalid input. Please enter 'Hit' or 'Stick'.")
