@@ -79,7 +79,7 @@ def main():
     Adds all the functions that will be displayed into one function
     """
     opponent_score = opponent()
-    user_score = user()
+    user_score = main_game_logic()
 
 def menu():
     print("""[1] Play The Game!
