@@ -43,6 +43,7 @@ def user():
     
         if intro.lower().strip().endswith('Hit'):
             user_result_two = user_turn()
+            user_total += value(user_result_two)
         
         if intro.lower().strip().endswith("Stick"):
             print("Opponents Turn...\n")
