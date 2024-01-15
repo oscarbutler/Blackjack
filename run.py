@@ -39,6 +39,8 @@ def main_game_logic():
         randomised_two = random.choice(cards)
         print(randomised_two)
         opponent_score = randomised_two
+        opponent_total_score += value(opponent_score)
+        print(f"Opponents total score is: {opponent_total_score}")
         #if opponent_score > 21:
          #   print("You have won. Well done!")
 
