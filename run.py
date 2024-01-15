@@ -42,6 +42,8 @@ def user():
         print("Invalid input. Please enter 'Hit' or 'Stick'.")
         user()
 
+def value(card):
+
 def opponent():
     """
     The score for the opponent which will be automised.
