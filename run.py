@@ -32,3 +32,5 @@ def user():
         print("Opponents Turn...\n")#
 
     def opponent():
+        print("Opponents Turn...\n")
+        print(randomised_two)
