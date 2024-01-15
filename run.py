@@ -39,6 +39,8 @@ def user():
             return
     if intro.endswith('Hit'):
         print(user_result_two)
+    else:
+        print("Invalid input. Please enter 'Hit' or 'Stick'.")
 
 def opponent():
     print("Opponents Turn...\n")
