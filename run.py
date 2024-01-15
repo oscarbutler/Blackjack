@@ -43,6 +43,8 @@ def user():
         user()
 
 def value(card):
+    if card.isdigit():
+        return int(card)
 
 def opponent():
     """
