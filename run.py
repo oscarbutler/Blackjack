@@ -89,6 +89,7 @@ def main_game_logic():
     return user_total, opponent_total_score
 
 
+
 def value(card):
     if card.isdigit():
         return int(card)

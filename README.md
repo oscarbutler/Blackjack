@@ -35,4 +35,6 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ### Mistakes
 
+- In the git commit e13f5e6 I have spelt the work frequent incorrectly.
+
 ## Deployment
