@@ -21,6 +21,12 @@ def user_turn():
     print("randomised_card for a user: ", randomised_card)
     return randomised_card
 
+def user_turn():
+    print("Your Turn:")
+    randomised_card = random.choice(cards)
+    print("randomised_card for a user: ", randomised_card)
+    return randomised_card
+
 #def stop_recieving_card():
  #   return 17 <= 
 
@@ -47,7 +53,7 @@ def main_game_logic():
         opponent_score = randomised_two
         opponent_total_score += value(opponent_score)
         print(f"Opponents total score is: {opponent_total_score}")
-        
+
         if opponent_total_score > 21:
            print("You have won. Well done!")
            return user_total, opponent_total_score
