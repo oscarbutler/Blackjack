@@ -19,3 +19,5 @@
 The purpose of was to create a fully functioning game of twenty one which is very popular across the globe.
 
 It should be easy to play with clear input which only accepts "Hit" and "Stick".
+
+## Technology Used
