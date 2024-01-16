@@ -1,4 +1,6 @@
 import random
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
 
 
 cards = ['2', '3', '4', '5', '6', '7', '8', '9',
