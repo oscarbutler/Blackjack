@@ -44,6 +44,7 @@ def main_game_logic():
     user_total = 0
     opponent_total_score = 0
     user_result_one = user_turn()
+    opponent_result_one = opponent_turn()
 
     while True:
         intro = input("Hit or Stick:\n")
