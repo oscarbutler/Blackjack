@@ -21,6 +21,9 @@ def user_turn():
     print("randomised_card for a user: ", randomised_card)
     return randomised_card
 
+def stop_recieving_card():
+    
+
 def main_game_logic():
     """
     This will give the user and the opponent their first card
@@ -31,6 +34,8 @@ def main_game_logic():
     user_total = 0
     opponent_total_score = 0
     user_result_one = user_turn()
+
+  
 
     while True:
         intro = input("Hit or Stick:\n")
