@@ -22,9 +22,9 @@ def user_turn():
     return randomised_card
 
 def opponent_turn():
-    print("Your Turn:")
+    print("Opponents Turn:")
     randomised_card = random.choice(cards)
-    print("randomised_card for a user: ", randomised_card)
+    print("randomised_card for the opponent: ", randomised_card)
     return randomised_card
 
 #def stop_recieving_card():
