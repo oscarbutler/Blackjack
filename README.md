@@ -9,3 +9,7 @@
 ### Returning User
 
 - A returning user should find the first time on the game to be easy to maneuover efficient enough to want to return to the game.
+
+### Frequent User
+
+- A frequent user should feel the game is reliable and worth spending time on.
