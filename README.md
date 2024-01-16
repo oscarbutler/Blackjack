@@ -13,3 +13,5 @@
 ### Frequent User
 
 - A frequent user should feel the game is reliable and worth spending time on.
+
+## Purpose
