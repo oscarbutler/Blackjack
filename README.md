@@ -21,3 +21,8 @@ The purpose of was to create a fully functioning game of twenty one which is ver
 It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ## Technology Used
+
+- Python was used to make the code.
+- VS code was used to write the code.
+- Git Hub was where the repository and code is stored.
+- Pep8Ci was used to make sure that the code is correct
