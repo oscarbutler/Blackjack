@@ -34,3 +34,5 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 ### Unsolved Bugs
 
 ### Mistakes
+
+## Deployment
