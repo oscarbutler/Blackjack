@@ -21,7 +21,7 @@ def user_turn():
     print("randomised_card for a user: ", randomised_card)
     return randomised_card
 
-def user_turn():
+def opponent_turn():
     print("Your Turn:")
     randomised_card = random.choice(cards)
     print("randomised_card for a user: ", randomised_card)
