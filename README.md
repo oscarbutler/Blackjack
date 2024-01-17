@@ -26,7 +26,7 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 - The 4 different options are start the game, how to play, credits and exit programn.
 
-
+- If the user inputs 1 then the game will start.
 
 ## Technology Used
 
