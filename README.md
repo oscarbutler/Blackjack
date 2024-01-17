@@ -22,6 +22,10 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ## How to play
 
+- When programn is started a menu will appear which will present 4 different options.
+
+- The 4 different options are start the game, how to play, credits and exit programn.
+
 
 
 ## Technology Used
