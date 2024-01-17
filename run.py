@@ -90,6 +90,9 @@ def main_game_logic():
 
 
 def value(card):
+    """
+    Create the value for ace
+    """
     if card.isdigit():
         return int(card)
     elif card.lower() == 'ace':
