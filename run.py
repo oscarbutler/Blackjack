@@ -121,7 +121,7 @@ def game_summarising():
 def print_menu():
     print("""[1] Play The Game!
 [2] How to Play
-[3] Credits"
+[3] Credits
 [0] Exit the programn.""")
 
 
