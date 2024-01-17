@@ -35,6 +35,10 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 - If the user inputs 0 the programn will stop.
 
 - When the input to start the game is entered there will be 2 cards given, one to the user and one to the opponent.
+
+- Afterwards there will be a input option of hit and stick, this will allow the user to make a choice on whether to get another card or to not recieve anymore.
+
+- If the user sticks then the opponent will get an extra card.
 ## Technology Used
 
 - Python was used to make the code.
