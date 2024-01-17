@@ -58,13 +58,13 @@ def main_game_logic():
         intro = input("Hit or Stick:\n")
         print("Opponents Turn...\n")
         randomised_two = random.choice(cards)
-        print("randomised_two for a comp", randomised_two)
+        print("randomised_two for a comp\n", randomised_two)
         opponent_score = randomised_two
         opponent_total_score += value(opponent_score)
-        print(f"Opponents total score is: {opponent_total_score}")
+        print(f"Opponents total score is: {opponent_total_score}\n")
 
         if opponent_total_score > 21:
-            print("You have won. Well done!")
+            print("You have won. Well done!\n")
             return user_total, opponent_total_score
 
         if intro.lower().strip().endswith('hit'):
@@ -84,7 +84,7 @@ def main_game_logic():
             #  return
 
         else:
-            print("Invalid input. Please enter 'Hit' or 'Stick'.")
+            print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
 
     return user_total, opponent_total_score
 
