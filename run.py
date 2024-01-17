@@ -129,7 +129,8 @@ def main():
     print_menu()
     answer = int(input("Enter your option: "))
 
-    while answer != 0:
+    while True:
+
         if answer == 1:
             print("Option 1 has been chosen.")
             game_summarising()
