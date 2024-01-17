@@ -47,6 +47,7 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 - VS code was used to write the code.
 - Git Hub was where the repository and code is stored.
 - Pep8Ci was used to make sure that the code is correct
+- Heroku is used for deployment
 
 ## Bugs
 
