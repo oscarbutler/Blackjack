@@ -28,6 +28,11 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 - If the user inputs 1 then the game will start.
 
+- If user inputs 2 they will be shown how to play the game.
+
+- If the input is 3 they will be shown the credits of the project.
+
+- If the user inputs 0 the programn will stop
 ## Technology Used
 
 - Python was used to make the code.
