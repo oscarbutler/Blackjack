@@ -27,7 +27,7 @@ def user_turn():
 
 def opponent_turn():
     print("Opponents Turn:")
-    randomised_card = random.choice(cards)
+    randomised_card = cards.pop(cards.index(random.choice(cards)))
     print("Opponents card: ", randomised_card)
     return randomised_card
 
