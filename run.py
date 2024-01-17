@@ -20,7 +20,7 @@ jack = 10
 
 def user_turn():
     print("Your Turn:")
-    randomised_card = random.choice(cards)
+    randomised_card = cards.pop(cards.index(random.choice(cards)))
     print("Users card: ", randomised_card)
     return randomised_card
 
