@@ -39,6 +39,8 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 - Afterwards there will be a input option of hit and stick, this will allow the user to make a choice on whether to get another card or to not recieve anymore.
 
 - If the user sticks then the opponent will get an extra card.
+
+- If either user or opponent goes over 21 they will lose.
 ## Technology Used
 
 - Python was used to make the code.
