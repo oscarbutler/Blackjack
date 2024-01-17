@@ -20,6 +20,10 @@ The purpose of was to create a fully functioning game of twenty one which is ver
 
 It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
+## How to play
+
+
+
 ## Technology Used
 
 - Python was used to make the code.
