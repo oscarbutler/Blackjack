@@ -129,9 +129,11 @@ def main():
     print_menu()
     
     while True:
-        try
+        try:
             answer = int(input("Enter your option: "))
-
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
+            continue
 
         if answer == 1:
             print("Option 1 has been chosen.")
