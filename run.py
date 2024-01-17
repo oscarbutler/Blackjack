@@ -127,9 +127,11 @@ def print_menu():
 
 def main():
     print_menu()
-    answer = int(input("Enter your option: "))
-
+    
     while True:
+        try
+            answer = int(input("Enter your option: "))
+
 
         if answer == 1:
             print("Option 1 has been chosen.")
