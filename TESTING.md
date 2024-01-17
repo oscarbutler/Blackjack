@@ -10,3 +10,7 @@
 | Enter '3' into the input given | Enter '3' | The user should be taken to the credits section | Yes | Yes | --- |
 | Enter '0' into the input given | Enter '0' | The programn should stop | Yes | Yes | --- |
 | Invalid input | Enter a number not in the menu | Get a error saying that the number is invalid | Yes | Yes | --- |
+| In game should get hit or stick available input | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
