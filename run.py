@@ -91,6 +91,8 @@ def main_game_logic():
 
         if user_stays:
             while 17 <= opponent_total_score <=21:
+                print("Opponents Turn...\n")
+                opponent_score = opponent_turn(opponent_total_score)
 
         
 
