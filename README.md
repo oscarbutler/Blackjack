@@ -14,6 +14,8 @@
 
 - A frequent user should feel the game is reliable and worth spending time on.
 
+- It should have different ways to end the game in order for it be replayable.
+
 ## Purpose
 
 The purpose of was to create a fully functioning game of twenty one which is very popular across the globe.
