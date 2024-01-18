@@ -73,7 +73,7 @@ def main_game_logic():
             print("You have won. Well done!\n")
             return user_total, opponent_total_score
 
-        if intro.lower().strip().endswith('hit'):
+        if intro.lower().strip().endswith('hit') and not user_stays:
             user_result_two = user_turn()
             user_total += value(user_result_two)
             print(f"Your total score is: {user_total}")
@@ -82,7 +82,7 @@ def main_game_logic():
                 print("You've lost, better luck next time!")
                 return user_total
 
-        elif intro.lower().strip().endswith("stick"):
+        elif intro.lower().strip().endswith("stick") and not user_stays:
             randomised_two = random.choice(cards)
             # print("Opponents Turn...\n")
             # if user_total > 21:
