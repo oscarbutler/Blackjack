@@ -95,11 +95,13 @@ def main_game_logic():
                 opponent_score = opponent_turn(opponent_total_score)
 
                 if opponent_score == 'stick':
+                    print(f"Opponents total score is: {opponent_total_score}")
+                    break
 
         
 
-        else:
-            print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
+                else:
+                    print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
 
     return user_total, opponent_total_score
 
