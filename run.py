@@ -173,7 +173,9 @@ def main():
               Welcome to a game of 21, you will
               have to get the closest to 21 as possible\n
               Your opponent is also trying to get as close to 21 but if
-              they reach 17 or higher they can not get another card.\n""")
+              they reach 17 or higher they can not get another card.
+              In this version the opponent is allowed to stick whenever
+              so be careful!\n""")
         elif answer == 3:
             print("""Option 3 has been chosen.\n
                 https://github.com/oscarbutler""")
