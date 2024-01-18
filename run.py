@@ -57,7 +57,7 @@ def main_game_logic():
     user_stays = False
 
     while True:
-        intro = input("Hit or Stick:\n")
+        intro = input("Hit or Stick:\n").lower().strip()
         print("Opponents Turn...\n")
         #randomised_two = random.choice(cards)
         #print("randomised_two for a comp\n", randomised_two)
