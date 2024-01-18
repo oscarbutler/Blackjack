@@ -84,6 +84,7 @@ def main_game_logic():
 
         elif intro.lower().strip().endswith("stick") and not user_stays:
             print("You have chosen to stick")
+            user_stays = True
             # print("Opponents Turn...\n")
             # if user_total > 21:
             #   print("You've lost, better luck next time!")
