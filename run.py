@@ -108,6 +108,7 @@ def main_game_logic():
         while opponent_total_score <= 21:
             if opponent_total_score > user_total:
                 print("You lose, better luck next time!")
+                break
 
 
     return user_total, opponent_total_score
