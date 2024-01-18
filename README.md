@@ -54,6 +54,8 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 - Pep8Ci was used to make sure that the code is correct
 - Heroku is used for deployment
 
+## Credits
+
 ## Bugs
 
 ### Solved Bugs
