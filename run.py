@@ -62,8 +62,11 @@ def main_game_logic():
         #randomised_two = random.choice(cards)
         #print("randomised_two for a comp\n", randomised_two)
         opponent_score = opponent_turn(opponent_total_score)
-        opponent_total_score += value(opponent_score)
-        print(f"Opponents total score is: {opponent_total_score}\n")
+
+        if opponent_score == 'stick':
+            opponent_total_score += value(opponent_score)
+            print(f"Opponents total score is: {opponent_total_score}\n")
+        
 
         if opponent_total_score > 21:
             print("You have won. Well done!\n")
