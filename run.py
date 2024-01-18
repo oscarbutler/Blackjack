@@ -58,6 +58,11 @@ def main_game_logic():
 
     while True:
         intro = input("Hit or Stick:\n").lower().strip()
+
+        if intro not in ['hit', 'stick']:
+            print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
+            continue
+
         print("Opponents Turn...\n")
         #randomised_two = random.choice(cards)
         #print("randomised_two for a comp\n", randomised_two)
