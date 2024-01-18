@@ -20,14 +20,14 @@ jack = 10
 
 def user_turn():
     print("Your Turn:")
-    randomised_card = cards.pop(cards.index(random.choice(cards)))
+    randomised_card = random.choice(cards)
     print("Users card: ", randomised_card)
     return randomised_card
 
 
-def opponent_turn():
+def opponent_turn(opponent_total_score):
     print("Opponents Turn:")
-    randomised_card = cards.pop(cards.index(random.choice(cards)))
+    randomised_card = random.choice(cards)
     print("Opponents card: ", randomised_card)
     return randomised_card
 
@@ -91,14 +91,13 @@ def main_game_logic():
             #  return
 
         if user_stays:
-            while 17 <= opponent_total_score <=21:
+            while 17 <= opponent_total_score <= 21:
                 print("Opponents Turn...\n")
                 opponent_score = opponent_turn(opponent_total_score)
 
                 if opponent_score == 'stick':
                     print(f"Opponents total score is: {opponent_total_score}")
                     break
-
                 else:
                     opponent_total_score += value(opponent_score)
                     print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
