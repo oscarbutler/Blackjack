@@ -98,10 +98,12 @@ def main_game_logic():
                     print(f"Opponents total score is: {opponent_total_score}")
                     break
 
-        
-
                 else:
+                    opponent_total_score += value(opponent_score)
                     print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
+
+            print("Opponents sticks")
+            break
 
     return user_total, opponent_total_score
 
