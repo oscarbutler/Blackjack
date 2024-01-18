@@ -89,6 +89,9 @@ def main_game_logic():
             #   print("You've lost, better luck next time!")
             #  return
 
+        if user_stays:
+            while 17 <= opponent_total_score <=21:
+
         
 
         else:
