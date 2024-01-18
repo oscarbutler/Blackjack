@@ -49,7 +49,7 @@ def main_game_logic():
     user_total = 0
     opponent_total_score = 0
     user_result_one = user_turn()
-    opponent_result_one = opponent_turn()
+    opponent_result_one = opponent_turn(opponent_total_score)
 
     user_total += value(user_result_one)
     opponent_total_score += value(opponent_result_one)
@@ -83,6 +83,7 @@ def main_game_logic():
             #   print("You've lost, better luck next time!")
             #  return
 
+        
 
         else:
             print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
