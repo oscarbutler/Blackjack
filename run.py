@@ -172,6 +172,9 @@ def main():
         elif answer == 3:
             print("""Option 3 has been chosen.\n
                 https://github.com/oscarbutler""")
+        elif answer == 0:
+            print("Programme stopping")
+            break
         else:
             print("Invalid Option.")
 
