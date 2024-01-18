@@ -54,12 +54,14 @@ def main_game_logic():
     user_total += value(user_result_one)
     opponent_total_score += value(opponent_result_one)
 
+    user_stays = False
+
     while True:
         intro = input("Hit or Stick:\n")
         print("Opponents Turn...\n")
         #randomised_two = random.choice(cards)
         #print("randomised_two for a comp\n", randomised_two)
-        opponent_score = cards.pop(cards.index(random.choice(cards)))
+        opponent_score = opponent_turn(opponent_total_score)
         opponent_total_score += value(opponent_score)
         print(f"Opponents total score is: {opponent_total_score}\n")
 
