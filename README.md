@@ -43,6 +43,9 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 - If the user sticks then the opponent will get an extra card.
 
 - If either user or opponent goes over 21 they will lose.
+
+![Flowchart](documentation/flowchart.png)
+
 ## Technology Used
 
 - Python was used to make the code.
