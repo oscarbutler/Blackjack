@@ -17,3 +17,9 @@
 
 
 ![Menu](documentation/blackjack-menu.png)
+
+
+
+
+
+![Credits](documentation/live-code-credits)
