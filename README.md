@@ -61,3 +61,5 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 - Another mistake I made was that I spelt receiving wrong in git commit 121de2b. 
 ## Deployment
+
+- I have deployed my work to heroku
