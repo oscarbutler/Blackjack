@@ -56,6 +56,8 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ## Credits
 
+- I got help with the menu from this [Video](https://www.youtube.com/watch?v=63nw00JqHo0)
+
 ## Bugs
 
 ### Solved Bugs
