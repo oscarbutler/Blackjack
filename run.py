@@ -76,7 +76,7 @@ def main_game_logic():
         if intro.lower().strip().endswith('hit') and not user_stays:
             user_result_two = user_turn()
             user_total += value(user_result_two)
-            print(f"Your total score is: {user_total}")
+            print(f"Your total score is: {user_total}\n")
 
             if user_total > 21:
                 print("You've lost, better luck next time!")
