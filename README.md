@@ -59,4 +59,5 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 - In the git commit e13f5e6 I have spelt the work frequent incorrectly.
 
+- Another mistake I made was that I spelt receiving wrong in git commit 121de2b. 
 ## Deployment
