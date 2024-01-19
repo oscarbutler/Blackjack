@@ -81,7 +81,7 @@ def main_game_logic():
 
             if user_total > 21:
                 print("You've lost, better luck next time!")
-                return user_total
+                return user_total, opponent_total_score
 
         elif intro.lower().strip().endswith("stick") and not user_stays:
             print("You have chosen to stick")
@@ -182,8 +182,8 @@ def print_menu():
 
 
 def main():
-    """
-    This is what is going to be shown when choosing each option in the menu"""
+    """This is what is going to be shown when 
+    choosing each option in the menu"""
     print_menu()
 
 
