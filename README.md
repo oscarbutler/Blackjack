@@ -84,7 +84,7 @@ In order to solve that I added this code.
 
 - Another mistake I made was that I spelt receiving wrong in git commit 121de2b.
 
-
+- Mistakenly add a commit meant for README.md but added it to run.py
 
 ## Deployment
 
