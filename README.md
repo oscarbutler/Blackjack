@@ -108,26 +108,35 @@ and into the print menu function.
 - I have deployed my work to heroku
 
  Create a application
- ![Dashboard](documentation\heroku-dashboard.png)
+ ![Dashboard](documentation\heroku_dashboard.png)
 
  Go to the deploy section
 
- ![Deploy](documentation\deploy-section.png)
+ ![Deploy](documentation\deploy_section.png)
 
  Link your github account
 
- ![Github](documentation/link_github.png)
+ ![Github](documentation\link_github.png)
 
  Connect to the github repository
 
- ![Repository](documentation/connect-github.png)
+ ![Repository](documentation\connect_github.png)
 
 Go to the settings section
 
-!(documentation\deploy-section.png)
+![Settings](documentation\deploy_section.png)
 
 Add the buildpacks in the correct order
 
+![Buildpacks](documentation\buildpacks.png)
 
+Click "Reveal Config Vars" and enter:
+Key: PORT Value: 8000
+
+![Vars](documentation\config_vars.png)
+
+In the deploy section press "Deploy Branch"
+
+![Deploy](documentation\manual_deploy.png)
 
 
