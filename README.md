@@ -54,6 +54,10 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 - Pep8Ci was used to make sure that the code is correct
 - Heroku is used for deployment
 
+## Packages
+
+
+
 ## Credits
 
 - I got help with the menu from this 
