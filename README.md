@@ -72,7 +72,8 @@ In order to solve that I added this code.
 
 - In the git commit e13f5e6 I have spelt the work frequent incorrectly.
 
-- Another mistake I made was that I spelt receiving wrong in git commit 121de2b. 
+- Another mistake I made was that I spelt receiving wrong in git commit 121de2b.
+
 ## Deployment
 
 - I have deployed my work to heroku

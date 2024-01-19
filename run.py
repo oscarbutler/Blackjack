@@ -64,8 +64,8 @@ def main_game_logic():
             continue
 
         print("Opponents Turn...\n")
-        #randomised_two = random.choice(cards)
-        #print("randomised_two for a comp\n", randomised_two)
+        # randomised_two = random.choice(cards)
+        # print("randomised_two for a comp\n", randomised_two)
         opponent_score = opponent_turn(opponent_total_score)
 
         if opponent_score == 'stick':
@@ -115,7 +115,6 @@ def main_game_logic():
                 print("You lose, better luck next time!")
                 break
 
-
     return user_total, opponent_total_score
 
 
@@ -157,7 +156,7 @@ def print_menu():
 
 def main():
     print_menu()
-    
+
     while True:
         try:
             answer = int(input("Enter your option: "))
