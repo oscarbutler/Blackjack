@@ -114,3 +114,13 @@ and into the print menu function.
 
  [Deploy](documentation\deploy-section.png)
 
+ Link your github account
+
+ [Github](documentation\link-github.png)
+
+ Connect to the github repository
+
+ [Repository](documentation\connect-github.png)
+
+
+
