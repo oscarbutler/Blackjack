@@ -116,11 +116,11 @@ and into the print menu function.
 
  Link your github account
 
- ![Github](documentation\link-github.png)
+ ![Github](documentation/link_github.png)
 
  Connect to the github repository
 
- ![Repository](documentation\connect-github.png)
+ ![Repository](documentation/connect-github.png)
 
 Go to the settings section
 
