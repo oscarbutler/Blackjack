@@ -56,7 +56,11 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ## Packages
 
+- I have used the random package in order to receive a different number every
+time.
 
+- I have used imported os so that I can clear the terminal and make it look
+presentable.
 
 ## Credits
 
