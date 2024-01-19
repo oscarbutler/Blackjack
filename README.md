@@ -106,3 +106,11 @@ and into the print menu function.
 ## Deployment
 
 - I have deployed my work to heroku
+
+ Create a application
+ [Dashboard](documentation\heroku-dashboard.png)
+
+ Go to the deploy section
+
+ [Deploy](documentation\deploy-section.png)
+
