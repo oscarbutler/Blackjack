@@ -1,7 +1,7 @@
 import random
 import os
-os.system('cls' if os.name == 'nt' else 'clear')
-
+# os.system('cls' if os.name == 'nt' else 'clear')
+# from os import system
 
 cards = ['2', '3', '4', '5', '6', '7', '8', '9',
          '10', 'ace', 'king', 'queen', 'jack',
@@ -108,7 +108,7 @@ def main_game_logic():
         while opponent_total_score <= 21:
             if opponent_total_score > user_total:
                 print("You lose, better luck next time!")
-                break
+                return user_total, opponent_total_score
 
     return user_total, opponent_total_score
 
@@ -132,12 +132,11 @@ def game_summarising():
     user_score, opponent_score = main_game_logic()
     print(f"User's Total Score: {user_score}")
     print(f"Opponent's Total Score: {opponent_score}")
+    print_menu()
 
 
 def print_menu():
-    """
-    This will show the menu when the programme starts
-    """
+    """This will show the menu when the programme starts"""
     print("""[1] Play The Game!
 [2] How to Play
 [3] Credits
@@ -159,9 +158,11 @@ def print_menu():
             continue
 
         if answer == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
             print("Option 1 has been chosen.")
             game_summarising()
         elif answer == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
             print(f"""Option 2 has been chosen.\n
               Welcome to a game of 21, you will
               have to get the closest to 21 as possible\n
@@ -170,6 +171,7 @@ def print_menu():
               In this version the opponent is allowed to stick whenever
               so be careful!\n""")
         elif answer == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
             print("""Option 3 has been chosen.\n
                 https://github.com/oscarbutler""")
         elif answer == 0:
