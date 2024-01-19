@@ -62,6 +62,10 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ### Solved Bugs
 
+- When I entered a letter into the menu input it would break the programme and it would have to be restarted.
+In order to solve that I added this code.
+![Error](documentation/valueError.png)
+
 ### Unsolved Bugs
 
 ### Mistakes
