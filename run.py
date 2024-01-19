@@ -142,15 +142,6 @@ def print_menu():
 [2] How to Play
 [3] Credits
 [0] Exit the programn.""")
-
-
-def main():
-    """
-    This is what is going to be shown when choosing
-    each option in the menu
-    """
-    print_menu()
-
     while True:
         try:
             answer = int(input("Enter your option: "))
@@ -174,13 +165,20 @@ def main():
                 https://github.com/oscarbutler""")
         elif answer == 0:
             print("Programme stopping")
-            break
+            exit()
         else:
             print("Invalid Option.")
 
         print_menu()
         print()
-        answer = int(input("Enter your option: "))
+
+
+def main():
+    """
+    This is what is going to be shown when choosing
+    each option in the menu
+    """
+    print_menu()
 
 
 if __name__ == "__main__":
