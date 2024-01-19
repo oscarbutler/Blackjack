@@ -84,6 +84,10 @@ course.
 In order to solve that I added this code.
 ![Error](documentation/valueError.png)
 
+- There was a bug that made the user input a number twice when choosing an
+option in the menu. To fix this I moved the loop out of the main function
+and into the print menu function.
+
 ### Unsolved Bugs
 
 ### Mistakes
