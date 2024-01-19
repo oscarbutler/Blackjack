@@ -108,7 +108,7 @@ and into the print menu function.
 - I have deployed my work to heroku
 
  Create a application
- ![Dashboard](documentation\heroku_dashboard.png)
+ ![Dashboard](documentation/heroku_dashboard.png)
 
  Go to the deploy section
 
@@ -124,19 +124,19 @@ and into the print menu function.
 
 Go to the settings section
 
-![Settings](documentation\deploy_section.png)
+![Settings](documentation/deploy_section.png)
 
 Add the buildpacks in the correct order
 
-![Buildpacks](documentation\buildpacks.png)
+![Buildpacks](documentation/buildpacks.png)
 
 Click "Reveal Config Vars" and enter:
 Key: PORT Value: 8000
 
-![Vars](documentation\config_vars.png)
+![Vars](documentation/config_vars.png)
 
 In the deploy section press "Deploy Branch"
 
-![Deploy](documentation\manual_deploy.png)
+![Deploy](documentation/manual_deploy.png)
 
 
