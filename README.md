@@ -56,7 +56,17 @@ It should be easy to play with clear input which only accepts "Hit" and "Stick".
 
 ## Credits
 
-- I got help with the menu from this [Video](https://www.youtube.com/watch?v=63nw00JqHo0)
+- I got help with the menu from this 
+[Video](https://www.youtube.com/watch?v=63nw00JqHo0)
+
+- I learnt the python lagnuage through Code Institutes courses that were
+provided.
+
+- I have been able to use VScode for free which is where I am able type the
+code for this programme.
+
+- I have been able to use heroku for free of charge through the code institute
+course.
 
 ## Bugs
 
@@ -73,6 +83,8 @@ In order to solve that I added this code.
 - In the git commit e13f5e6 I have spelt the work frequent incorrectly.
 
 - Another mistake I made was that I spelt receiving wrong in git commit 121de2b.
+
+
 
 ## Deployment
 
