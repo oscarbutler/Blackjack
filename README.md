@@ -139,4 +139,6 @@ In the deploy section press "Deploy Branch"
 
 ![Deploy](documentation/manual_deploy.png)
 
+Once branch is deployed you press "View" and you will see your programn.
 
+![Deployed](documentation/successfully_deployed.png)
