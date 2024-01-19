@@ -144,7 +144,16 @@ def print_menu():
 [0] Exit the programn.""")
     while True:
         try:
-            answer = int(input("Enter your option: "))
+            answer = input("Enter your option: ")
+            if not answer.isnumeric():
+                print(
+                    f"""
+{answer} is not the option that is required. Please use numbers 0 - 3
+"""
+                )
+            else:
+                answer = int(answer)
+            # answer = int(input("Enter your option: "))
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
             continue
@@ -167,7 +176,7 @@ def print_menu():
             print("Programme stopping")
             exit()
         else:
-            print("Invalid Option.")
+            print("Invalid Option. The number should be between 0-3")
 
         print_menu()
         print()
