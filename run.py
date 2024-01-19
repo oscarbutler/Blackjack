@@ -20,9 +20,7 @@ jack = 10
 
 def user_turn():
     """
-    Chooses a random card out of the cards variable
-    for the user to have.
-    """
+    Chooses a random card out of the cards variablefor the user to have."""
     print("Your Turn:")
     randomised_card = random.choice(cards)
     print("Users card: ", randomised_card)
@@ -31,9 +29,8 @@ def user_turn():
 
 def opponent_turn(opponent_total_score):
     """
-    Chooses a random card out of the cards variable
-    for the opponent to have.
-    """
+    Chooses a random card out of the cards variable for the opponent to
+     have."""
     print("Opponents Turn:")
     randomised_card = random.choice(cards)
     print("Opponents card: ", randomised_card)
@@ -105,10 +102,10 @@ def main_game_logic():
             print("Opponents sticks")
             break
 
-        while opponent_total_score <= 21:
-            if opponent_total_score > user_total:
-                print("You lose, better luck next time!")
-                return user_total, opponent_total_score
+        # while opponent_total_score <= 21:
+        #     if opponent_total_score > user_total:
+        #         print("You lose, better luck next time!")
+        #         return user_total, opponent_total_score
 
     return user_total, opponent_total_score
 
@@ -186,9 +183,7 @@ def print_menu():
 
 def main():
     """
-    This is what is going to be shown when choosing
-    each option in the menu
-    """
+    This is what is going to be shown when choosing each option in the menu"""
     print_menu()
 
 
