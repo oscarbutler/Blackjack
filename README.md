@@ -63,6 +63,10 @@ time.
 - I have used imported os so that I can clear the terminal and make it look
 presentable.
 
+## Testing
+
+- You can find everything about testing in the [TESTING.md]
+
 ## Credits
 
 - I got help with the menu from this 
