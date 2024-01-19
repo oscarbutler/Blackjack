@@ -31,13 +31,6 @@ def opponent_turn(opponent_total_score):
     print("Opponents card: ", randomised_card)
     return randomised_card
 
-# def stop_recieving_card():
-# return 17 <=
-
-# def opponent_first_turn():
-    # opponent_turn = random.choice(cards)
-    # return opponent_turn
-
 
 def main_game_logic():
     """
@@ -64,8 +57,6 @@ def main_game_logic():
             continue
 
         print("Opponents Turn...\n")
-        # randomised_two = random.choice(cards)
-        # print("randomised_two for a comp\n", randomised_two)
         opponent_score = opponent_turn(opponent_total_score)
 
         if opponent_score == 'stick':
@@ -90,10 +81,7 @@ def main_game_logic():
         elif intro.lower().strip().endswith("stick") and not user_stays:
             print("You have chosen to stick")
             user_stays = True
-            # print("Opponents Turn...\n")
-            # if user_total > 21:
-            #   print("You've lost, better luck next time!")
-            #  return
+
 
         if user_stays:
             while 17 <= opponent_total_score <= 21:
@@ -128,14 +116,6 @@ def value(card):
         return ace
     else:
         return 10
-
-# def opponent():
-    """
-    The score for the opponent which will be automised.
-    """
-    # print("Opponents Turn...\n")
-    # randomised_two = random.choice(cards)
-    # print(randomised_two)
 
 
 def game_summarising():
