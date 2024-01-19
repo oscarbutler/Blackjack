@@ -19,6 +19,10 @@ jack = 10
 
 
 def user_turn():
+    """
+    Chooses a random card out of the cards variable
+    for the user to have.
+    """
     print("Your Turn:")
     randomised_card = random.choice(cards)
     print("Users card: ", randomised_card)
@@ -26,6 +30,10 @@ def user_turn():
 
 
 def opponent_turn(opponent_total_score):
+    """
+    Chooses a random card out of the cards variable
+    for the opponent to have.
+    """
     print("Opponents Turn:")
     randomised_card = random.choice(cards)
     print("Opponents card: ", randomised_card)
@@ -128,6 +136,9 @@ def game_summarising():
 
 
 def print_menu():
+    """
+    This will show the menu when the programme starts
+    """
     print("""[1] Play The Game!
 [2] How to Play
 [3] Credits
@@ -135,6 +146,10 @@ def print_menu():
 
 
 def main():
+    """
+    This is what is going to be shown when choosing
+    each option in the menu
+    """
     print_menu()
 
     while True:
