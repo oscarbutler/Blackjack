@@ -112,15 +112,15 @@ and into the print menu function.
 
  Go to the deploy section
 
- ![Deploy](documentation\deploy_section.png)
+ ![Deploy](documentation/deploy_section.png)
 
  Link your github account
 
- ![Github](documentation\link_github.png)
+ ![Github](documentation/link_github.png)
 
  Connect to the github repository
 
- ![Repository](documentation\connect_github.png)
+ ![Repository](documentation/connect_github.png)
 
 Go to the settings section
 
