@@ -167,11 +167,11 @@ def print_menu():
             continue
 
         if answer == 1:
-            os.system('cls' if os.name == 'nt' else 'clear')
+            os.system('clear')
             print("Option 1 has been chosen.")
             game_summarising()
         elif answer == 2:
-            os.system('cls' if os.name == 'nt' else 'clear')
+            os.system('clear')
             print(f"""Option 2 has been chosen.\n
               Welcome to a game of 21, you will
               have to get the closest to 21 as possible\n
@@ -181,7 +181,7 @@ def print_menu():
               so be careful!\n
               If the user or opponent goes over 21 then they will lose!\n""")
         elif answer == 3:
-            os.system('cls' if os.name == 'nt' else 'clear')
+            os.system('clear')
             print("""Option 3 has been chosen.\n
                 https://github.com/oscarbutler""")
         elif answer == 0:
