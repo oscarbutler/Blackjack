@@ -140,6 +140,7 @@ def game_summarising():
     user_score, opponent_score = main_game_logic()
     print(f"User's Total Score: {user_score}")
     print(f"Opponent's Total Score: {opponent_score}")
+    get_the_winner(user_score, opponent_score)
     print_menu()
 
 
