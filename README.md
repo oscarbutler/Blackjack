@@ -61,6 +61,10 @@ It should be easy to play with clear input which only accepts
 
 ## Features
 
+When you first run the programme:
+
+![options](documentation/options.png)
+
 ## Technology Used
 
 - Python was used to make the code.
