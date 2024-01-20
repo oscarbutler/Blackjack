@@ -38,6 +38,8 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 
 ![Credits](documentation/live_code_credits)
 
+## The Game
+
 ![game_one](documentation/play_one.png)
 
 ![game_two](documentation/play_two.png)
@@ -45,6 +47,12 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 ![game_three](documentation/play_three.png)
 
 ![game_four](documentation/play_four.png)
+
+These are images of the game being played but the user inputting stick
+
+![stick_one](documentation/stick_one.png)
+
+![stick_two](documentation/stick_two.png)
 
 ![two](documentation/option_two.png)
 
