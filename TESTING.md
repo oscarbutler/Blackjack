@@ -32,13 +32,12 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 
 ![Menu](documentation/blackjack_menu.png)
 
-![Credits](documentation/live_code_credits)
-
 ![two](documentation/option_two.png)
 
 ![three](documentation/credits.png)
 
 ![exit](documentation/stop_programme.png)
+
 ## The Game
 
 This is the programme being run, but it shows how inputting 'hit' will effect
