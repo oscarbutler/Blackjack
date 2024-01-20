@@ -162,7 +162,6 @@ def print_menu():
                 )
             else:
                 answer = int(answer)
-            # answer = int(input("Enter your option: "))
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
             continue
