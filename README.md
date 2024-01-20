@@ -115,6 +115,10 @@ and into the print menu function.
 
 ### Unsolved Bugs
 
+- A bug that appeared was in the deployed version the text "Running startup
+command: python3 run.py" appears. This does not come up when testing in vsCode
+which makes it very difficult to get rid off.
+
 ### Mistakes
 
 - In the git commit e13f5e6 I have spelt the work frequent incorrectly.
