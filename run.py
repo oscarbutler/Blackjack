@@ -110,15 +110,15 @@ def main_game_logic():
 
 def get_the_winner(user_score, opponent_score):
     if user_score > 21:
-        print("You've lost, better luck next time")
+        print("You've lost, better luck next time\n")
     elif opponent_score > 21:
-        print("You have won. Well done!")
+        print("You have won. Well done!\n")
     elif user_score > opponent_score:
-        print("You have won. Well done!")
+        print("You have won. Well done!\n")
     elif user_score < opponent_score:
-        print("You've lost, better luck next time!")
+        print("You've lost, better luck next time!\n")
     else:
-        print("It is a draw!")
+        print("It is a draw!\n")
 
 
 def value(card):
