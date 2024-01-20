@@ -1,7 +1,6 @@
 import random
 import os
-# os.system('cls' if os.name == 'nt' else 'clear')
-# from os import system
+
 
 cards = ['2', '3', '4', '5', '6', '7', '8', '9',
          '10', 'ace', 'king', 'queen', 'jack',
@@ -107,11 +106,6 @@ def main_game_logic():
 
             print("Opponents sticks")
             break
-
-        # while opponent_total_score <= 21:
-        #     if opponent_total_score > user_total:
-        #         print("You lose, better luck next time!")
-        #         return user_total, opponent_total_score
 
     return user_total, opponent_total_score
 
