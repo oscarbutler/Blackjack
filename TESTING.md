@@ -24,6 +24,9 @@ stick input option,
 message saying user lost and menu will appear | Yes | Yes | --- |
 | Opponent is between 17 and 21 | If opponents total score is between 17 and 21
  it should stick | It does not recieve another card | Yes | Yes | --- |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 
 
 ![Menu](documentation/blackjack-menu.png)
