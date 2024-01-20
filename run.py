@@ -95,7 +95,7 @@ def main_game_logic():
                 opponent_score = opponent_turn(opponent_total_score)
 
                 if opponent_score == 'stick':
-                    print(f"Opponents total score is: {opponent_total_score}\n")
+                    print(f"Opponents total score is:{opponent_total_score}\n")
                     break
                 else:
                     opponent_total_score += value(opponent_score)
