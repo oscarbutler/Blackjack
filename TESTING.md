@@ -24,8 +24,9 @@ stick input option,
 message saying user lost and menu will appear | Yes | Yes | --- |
 | Opponent is between 17 and 21 | If opponents total score is between 17 and 21
  it should stick | It does not recieve another card | Yes | Yes | --- |
-| --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- |
+| Stick | User inputs stick | User should not recieve a card | Yes | Yes | --- |
+| Opponent goes over 21 | Opponent gets a card which makes it go over 21 |
+ It should say that the user wins and menu will appear | Yes | Yes | --- |
 | --- | --- | --- | --- | --- | --- |
 
 
