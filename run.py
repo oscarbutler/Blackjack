@@ -30,7 +30,8 @@ def user_turn():
 def opponent_turn(opponent_total_score):
     """
     Chooses a random card out of the cards variable for the opponent to have.
-    If the opponent's total score is between 17 and 21, the opponent will stick.
+    If the opponent's total score is between 17 and 21, the opponent
+    will stick.
     """
     print("Opponents Turn:")
     if 17 <= opponent_total_score <= 21:
@@ -40,7 +41,6 @@ def opponent_turn(opponent_total_score):
         randomised_card = random.choice(cards)
         print("Opponents card: ", randomised_card)
         return randomised_card
-
 
 
 def main_game_logic():
@@ -188,7 +188,7 @@ def print_menu():
 
 
 def main():
-    """This is what is going to be shown when 
+    """This is what is going to be shown when
     choosing each option in the menu"""
     print_menu()
 
