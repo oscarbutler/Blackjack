@@ -30,10 +30,10 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 | --- | --- | --- | --- | --- | --- |
 
 
-![Menu](documentation/blackjack-menu.png)
+![Menu](documentation/blackjack_menu.png)
 
 
 
 
 
-![Credits](documentation/live-code-credits)
+![Credits](documentation/live_code_credits)
