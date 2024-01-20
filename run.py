@@ -178,7 +178,8 @@ def print_menu():
               Your opponent is also trying to get as close to 21 but if
               they reach 17 or higher they can not get another card.
               In this version the opponent is allowed to stick whenever
-              so be careful!\n""")
+              so be careful!\n
+              If the user or opponent goes over 21 then they will lose!\n""")
         elif answer == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("""Option 3 has been chosen.\n
