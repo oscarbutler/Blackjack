@@ -29,12 +29,15 @@ def user_turn():
 
 def opponent_turn(opponent_total_score):
     """
-    Chooses a random card out of the cards variable for the opponent to
-     have."""
+    Chooses a random card out of the cards variable for the opponent to have.
+    If the opponent's total score is between 17 and 21, the opponent will stick.
+    """
     print("Opponents Turn:")
-    randomised_card = random.choice(cards)
-    print("Opponents card: ", randomised_card)
-    return randomised_card
+    if 17 <= opponent_total_score <= 21:
+        print("Opponent chooses to stick.")
+        return 'stick'
+
+
 
 
 def main_game_logic():
@@ -70,9 +73,9 @@ def main_game_logic():
             opponent_total_score += value(opponent_score)
             print(f"Opponents total score is: {opponent_total_score}\n")
 
-        if opponent_total_score > 21:
-            print("You have won. Well done!\n")
-            return user_total, opponent_total_score
+            if opponent_total_score > 21:
+                print("You have won. Well done!\n")
+                return user_total, opponent_total_score
 
         if intro.lower().strip().endswith('hit') and not user_stays:
             user_result_two = user_turn()
