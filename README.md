@@ -5,7 +5,8 @@
 ### First Time User
 
 - For a first time user the menu should be straight forward and easy to
- navigate as you do not want one which is confusing which could deter them from using it further.
+ navigate as you do not want one which is confusing which could deter them
+from using it further.
 
 - It should be easy to play as it has essentially step by step instructions on
  how to play as you progress through the game.
@@ -57,6 +58,8 @@ It should be easy to play with clear input which only accepts
 - If either user or opponent goes over 21 they will lose.
 
 ![Flowchart](documentation/flowchart.png)
+
+## Features
 
 ## Technology Used
 
