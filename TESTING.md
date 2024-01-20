@@ -11,8 +11,9 @@
 | Enter '0' into the input given | Enter '0' | The programn should stop | Yes | Yes | --- |
 | Invalid input | Enter a number not in the menu | Get a error saying that the number is invalid | Yes | Yes | --- |
 | In game should get hit or stick available input | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- |
+| Hit | input hit | User and opponent should recieve a card | Yes | Yes | --- |
+| User goes over 21 | User gets another card that puts it over 21 | No hit or stick input option,
+message saying user lost and menu will appear | Yes | Yes | --- |
 | --- | --- | --- | --- | --- | --- |
 
 
