@@ -63,9 +63,22 @@ These are images of the game being played but the user inputting stick
 
 ## Testing
 
+### Menu
+
+In the menu I have taken these screenshots to present that there are errors if
+the user does not enter the correct inputs.
+
 ![](documentation/menu_error.png)
 
 ![](documentation/menu_string.png)
 
 ![](documentation/menu_symbol.png)
 
+### The Game
+
+These screenshots show a different types of incorrect inputs which clearly show
+errors and that they need to try again.
+
+![](documentation/game_errors.png)
+
+![](documentation/game_no_word.png)
