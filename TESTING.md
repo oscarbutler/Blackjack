@@ -60,3 +60,12 @@ These are images of the game being played but the user inputting stick
 ## Pep8
 
 ![pep8](documentation/pep.png)
+
+## Testing
+
+![](documentation/menu_error.png)
+
+![](documentation/menu_string.png)
+
+![](documentation/menu_symbol.png)
+
