@@ -32,13 +32,17 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 
 ![Menu](documentation/blackjack_menu.png)
 
-
-
-
-
 ![Credits](documentation/live_code_credits)
 
+![two](documentation/option_two.png)
+
+![three](documentation/credits.png)
+
+![exit](documentation/stop_programme.png)
 ## The Game
+
+This is the programme being run, but it shows how inputting 'hit' will effect
+the programme.
 
 ![game_one](documentation/play_one.png)
 
@@ -53,12 +57,6 @@ These are images of the game being played but the user inputting stick
 ![stick_one](documentation/stick_one.png)
 
 ![stick_two](documentation/stick_two.png)
-
-![two](documentation/option_two.png)
-
-![three](documentation/credits.png)
-
-![exit](documentation/stop_programme.png)
 
 ## Pep8
 
