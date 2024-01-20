@@ -40,3 +40,7 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 
 
 ![two](documentation/option_two.png)
+
+![three](documentation/credits.png)
+
+![exit](documentation/stop_programme.png)
