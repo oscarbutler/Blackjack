@@ -37,3 +37,6 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 
 
 ![Credits](documentation/live_code_credits)
+
+
+![two](documentation/option_two.png)
