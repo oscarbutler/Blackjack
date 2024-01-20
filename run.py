@@ -112,6 +112,12 @@ def main_game_logic():
 def get_the_winner(user_score, opponent_score):
     if user_score > 21:
         print("You've lost, better luck next time!")
+    elif opponent_score > 21:
+        print("You have won. Well done!")
+    elif user_score > opponent_score:
+        print("You have won. Well done!")
+    elif user_score < opponent_score:
+        print("You've lost, better luck next time!")
  
 
 def value(card):
