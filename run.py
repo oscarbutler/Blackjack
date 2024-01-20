@@ -36,7 +36,10 @@ def opponent_turn(opponent_total_score):
     if 17 <= opponent_total_score <= 21:
         print("Opponent chooses to stick.")
         return 'stick'
-
+    else:
+        randomised_card = random.choice(cards)
+        print("Opponents card: ", randomised_card)
+        return randomised_card
 
 
 
