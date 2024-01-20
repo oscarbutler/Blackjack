@@ -6,6 +6,8 @@
 
 - For a first time user the menu should be straight forward and easy to navigate as you do not want one which is confusing which could deter them from using it further.
 
+- It should be easy to play as it has essentially step by step instructions on how to play as you progress through the game.
+
 ### Returning User
 
 - A returning user should find the first time on the game to be easy to maneuover efficient enough to want to return to the game.
