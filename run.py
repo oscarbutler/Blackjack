@@ -19,7 +19,7 @@ jack = 10
 def user_turn():
     """
     Chooses a random card out of the cards variablefor the user to have."""
-    print("Your Turn:")
+    print("Your Turn:\n")
     randomised_card = random.choice(cards)
     print("Users card: ", randomised_card)
     return randomised_card
@@ -31,13 +31,12 @@ def opponent_turn(opponent_total_score):
     If the opponent's total score is between 17 and 21, the opponent
     will stick.
     """
-    print("Opponents Turn:")
     if 17 <= opponent_total_score <= 21:
-        print("Opponent chooses to stick.")
+        print("Opponent chooses to stick.\n")
         return 'stick'
     else:
         randomised_card = random.choice(cards)
-        print("Opponents card: ", randomised_card)
+        print("Opponents card: \n", randomised_card)
         return randomised_card
 
 
@@ -96,13 +95,13 @@ def main_game_logic():
                 opponent_score = opponent_turn(opponent_total_score)
 
                 if opponent_score == 'stick':
-                    print(f"Opponents total score is: {opponent_total_score}")
+                    print(f"Opponents total score is: {opponent_total_score}\n")
                     break
                 else:
                     opponent_total_score += value(opponent_score)
                     print("Invalid input. Please enter 'Hit' or 'Stick'.\n")
 
-            print("Opponents sticks")
+            print("Opponents sticks\n")
             break
 
     return user_total, opponent_total_score
@@ -138,8 +137,8 @@ def game_summarising():
     Adds all the functions that will be displayed into one function
     """
     user_score, opponent_score = main_game_logic()
-    print(f"User's Total Score: {user_score}")
-    print(f"Opponent's Total Score: {opponent_score}")
+    print(f"User's Total Score: {user_score}\n")
+    print(f"Opponent's Total Score: {opponent_score}\n")
     get_the_winner(user_score, opponent_score)
     print_menu()
 
