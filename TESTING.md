@@ -38,13 +38,13 @@ message saying user lost and menu will appear | Yes | Yes | --- |
 
 ![Credits](documentation/live_code_credits)
 
-![one](documentation/play_one.png)
+![game_one](documentation/play_one.png)
 
-![two](documentation/play_two.png)
+![game_two](documentation/play_two.png)
 
-![three](documentation/play_three.png)
+![game_three](documentation/play_three.png)
 
-![four](documentation/play_four.png)
+![game_four](documentation/play_four.png)
 
 ![two](documentation/option_two.png)
 
