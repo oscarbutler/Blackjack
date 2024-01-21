@@ -74,6 +74,14 @@ When you first run the programme:
 
 ![options](documentation/options.png)
 
+![game](documentation/play_one.png)
+
+![credits](documentation/credits.png)
+
+![instructions](documentation/how_to_play.png)
+
+![stop](documentation/stop_programme.png)
+
 ## Technology Used
 
 - Python was used to make the code.
@@ -93,7 +101,7 @@ presentable.
 
 ## Testing
 
-- You can find everything about testing in the [TESTING.md]
+- You can find everything about testing in the [TESTING.md](TESTING.md)
 
 ## Credits
 
