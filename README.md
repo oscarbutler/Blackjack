@@ -74,17 +74,30 @@ When you first run the programme you will see this menu.
 
 ![options](documentation/options.png)
 
-This is one of the options you can pick from the menu.
+This is one of the options you can pick from the menu, this will take you
+to the game.
 
 ![game](documentation/play_one.png)
 
+This is another option that allows you to see who made the programme.
+
 ![credits](documentation/credits.png)
+
+In order to see how to play you can pick this section of the programn.
 
 ![instructions](documentation/how_to_play.png)
 
+If the user wants to stop the programme this will do so with ease.
+
 ![stop](documentation/stop_programme.png)
 
+This image can show that there is an input system so that the user can
+enter numbers or a string if its valid.
+
 ![input](documentation/input.png)
+
+An error message is vital if there is an input because you have to make
+sure that the user is using the correct information.
 
 ![error](documentation/error.png)
 
