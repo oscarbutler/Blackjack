@@ -11,10 +11,19 @@ from using it further.
 - It should be easy to play as it has essentially step by step instructions on
  how to play as you progress through the game.
 
+ - It should be clear on what the user has to input in order to progress
+ through the menu and game.
+
 ### Returning User
 
 - A returning user should find the first time on the game to be easy to
  maneuover efficient enough to want to return to the game.
+
+- The game should be functional in order for the user to come back and use
+the programn.
+
+- The user should not be able to win every time so that it can pose a
+challenge and be engaging towards the user.
 
 ### Frequent User
 
