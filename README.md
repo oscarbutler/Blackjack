@@ -97,7 +97,9 @@ enter numbers or a string if its valid.
 ![input](documentation/input.png)
 
 An error message is vital if there is an input because you have to make
-sure that the user is using the correct information.
+sure that the user is using the correct information. These error messages
+are in every part of the programn to ensure that the user is having an
+easy time to play the game and going through the menu.
 
 ![error](documentation/error.png)
 
