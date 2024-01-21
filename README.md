@@ -70,9 +70,11 @@ It should be easy to play with clear input which only accepts
 
 ## Features
 
-When you first run the programme:
+When you first run the programme you will see this menu.
 
 ![options](documentation/options.png)
+
+This is one of the options you can pick from the menu.
 
 ![game](documentation/play_one.png)
 
@@ -81,6 +83,10 @@ When you first run the programme:
 ![instructions](documentation/how_to_play.png)
 
 ![stop](documentation/stop_programme.png)
+
+![input](documentation/input.png)
+
+![error](documentation/error.png)
 
 ## Technology Used
 
